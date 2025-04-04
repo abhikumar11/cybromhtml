@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    < action="">
+    <!-- <form>
         <label>Name</label>
         <input type="text" placeholder="Enter your name"/>
         <br>
@@ -18,11 +18,38 @@
         <br>
         <label>Image</label>
         <input type="file"/>
+        <br>
         <input type="color"/>
+        <br>
         <input type="date"/>
+        <br>
         <input type="checkbox">uu
         <br>
+        <input type="radio" name="gen">Male
+        <input type="radio" name="gen">Female
+        <input type="radio" name="gen">Others
+        <br>
+      Select Country <select>
+            <option>India</option>
+            <option>America</option>
+            <option>China</option>
+            <option>Australia</option>
+        </select>
+        <br>
         <input type="submit"/>
+    </form> -->
+    <form action="https://api.web3forms.com/submit" method="POST">
+
+        <input type="hidden" name="access_key" value="7e8ae9f1-f614-425e-acbb-6589c2211bb6">
+        Enter name: <input type="text" name="username"> <br><br>
+        Enter number: <input type="number" name="usernumber"> <br><br>
+        Enter query: <input type="text" name="userquery"> <br><br>
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+        <input type="submit" value="Send Query"/>
     </form>
+    <button><a href="https://www.youtube.com">Youtube</a></button>
+    <button><a href="https://www.google.com">Google</a></button>
+    <button><a href="https://www.amazon.in">Amazon</a></button>
+    <a href="./about.html">Go to about page</a>
 </body>
 </html>
