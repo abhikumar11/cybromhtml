@@ -1,3 +1,12 @@
-body{
+.container{
     background-color: hotpink;
+}
+.head1{
+    color: red;
+    text-align: center;
+    font-size: 80px;
+    text-transform: uppercase;
+    text-decoration:line-through;
+    text-decoration-color: aqua;
+    text-decoration-style: dashed;
 }
