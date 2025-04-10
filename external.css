@@ -9,4 +9,12 @@
     text-decoration:line-through;
     text-decoration-color: aqua;
     text-decoration-style: dashed;
+    letter-spacing: 20px;
+    text-shadow: -13px -14px 5px gold;
+}
+.para{
+    font-weight: bold;
+    font-style: italic;
+    word-spacing: 10px;
+    line-height: 50px;
 }
