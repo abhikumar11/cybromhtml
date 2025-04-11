@@ -3,3 +3,12 @@
     color: whitesmoke;
     padding: 20px;
 }
+.wrapper2{
+    background-color: goldenrod;
+    color: whitesmoke;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    border: 10px solid skyblue;
+    
+}
