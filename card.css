@@ -1,0 +1,44 @@
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+.cards{
+    display: flex;
+    text-align: center;
+    padding: 20px;
+}
+.twitter{
+    border: 2px solid black;
+    margin: 20px;
+}
+p{
+    font-size: 20px;
+}
+h1{
+    text-transform: uppercase;
+}
+.instagram{
+    border: 2px solid black;
+    /* padding: 20px; */
+    margin: 20px;
+    
+}
+.youtube{
+    border: 2px solid black;
+    margin: 20px;
+}
+
+button{
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 50px;
+    width: 300px;
+   margin-bottom: 20px;
+    
+}
+

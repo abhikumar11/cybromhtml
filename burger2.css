@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    justify-content:space-evenly;
+}
+img{
+    width: 500px;
+    height: 500px;
+}
+.card h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 20px;
+}
+.card p{
+    margin: 20px;
+    font-weight: 200;
+}
+.card button{
+    margin-left: 20px;
+    height: 50px;
+    width: 100px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: 1 solid black;
+}
