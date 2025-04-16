@@ -3,6 +3,8 @@
    position absolute is independent and works on body
    position sticky is dependent on parent
    position fixed is independent
+   flex is 1d and grid is 2d
+   to manupilate child we have to use grid lines
 */
 /* 
 navbar,hero,about,card,testimonial,newsletter,footer

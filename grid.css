@@ -1,0 +1,11 @@
+.container{
+    background-color: yellow;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: 300px 200px;
+}
+.child1,.child2,.child3,.child4,.child5,.child6{
+    background-color: blueviolet;
+    border: 2px solid black;
+}
