@@ -1,0 +1,21 @@
+/* position properties:relative,absolute,sticky,fixed
+   position realtive is depends on parent
+   position absolute is independent and works on body
+   position sticky is dependent on parent
+   position fixed is independent
+*/
+/* 
+navbar,hero,about,card,testimonial,newsletter,footer
+*/
+.parent{
+    background-color: blueviolet;
+    height: 300px;
+    margin-top: 150px;
+}
+.child{
+    background-color: yellow;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top:40px;
+}
