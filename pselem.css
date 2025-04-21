@@ -1,0 +1,16 @@
+input::placeholder{
+    color: red;
+    padding: 30px;
+}
+p::selection{
+    color: red;
+    background-color: violet;
+}
+.name::before{
+    content:" Mr. ";
+    color:red;
+}
+.name::after{
+    content:" Verma";
+    color:blue;
+}

@@ -6,20 +6,35 @@
     grid-template-rows: 300px 200px;
 }
 .child1,.child2,.child3,.child4,.child5,.child6{
-    background-color: blueviolet;
+    background-color:cornflowerblue;
     border: 2px solid black;
 }
 .child1{
-    grid-column-start:1;
-    grid-column-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
 .child2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.child3{
+    grid-column-start: 2;
+    grid-column-end: 3;
+   
+}
+.child4{
     grid-column-start: 3;
     grid-column-end: 4;
-    grid-row-start:1;
-    grid-row-end: 3;
 }
-.child6{
+.child5{
     grid-column-start: 2;
     grid-column-end: 4;
 }
+.child6{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+

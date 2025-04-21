@@ -1,0 +1,20 @@
+.main{
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    flex-wrap: wrap-reverse;
+}
+div{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}
+.div1{
+    background-color: aqua;
+}
+.div2{
+    background-color: blueviolet;
+}
+.div3{
+    background-color: yellow;
+}

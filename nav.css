@@ -13,7 +13,7 @@ body{
     list-style: none;
     gap: 30px;
 }
-.hero{
+/* .hero{
     background-image: url(texture.jpg);
     height: 100vh;
     background-size: cover;
@@ -22,4 +22,4 @@ body{
     height: 100vh;
     background-image: url(image2.jpg);
     background-repeat: no-repeat;
-}
+} */
